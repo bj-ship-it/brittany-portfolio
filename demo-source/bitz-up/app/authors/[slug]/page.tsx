@@ -264,13 +264,13 @@ export default async function AuthorDetailPage({
           )}
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <IconLink href={socials.instagram} icon="/demos/bitz-up/icons/ig-icon.png" label="Instagram" />
-            <IconLink href={socials.threads} icon="/demos/bitz-up/icons/threads-icon.png" label="Threads" />
-            <IconLink href={socials.facebook} icon="/demos/bitz-up/icons/fb-icon.png" label="Facebook" />
-            <IconLink href={socials.tiktok} icon="/demos/bitz-up/icons/tiktok-icon.png" label="TikTok" />
-            <IconLink href={socials.website} icon="/demos/bitz-up/icons/amz-icon.png" label="Amazon or Website" />
-            <IconLink href={socials.preorder} icon="/demos/bitz-up/icons/beventi-icon.png" label="Preorder" />
-            <IconLink href={socials.jibbly} icon="/demos/bitz-up/icons/jibbly-icon.png" label="Jibbly Collection" />
+            <IconLink href={socials.instagram} icon="/brittany-portfolio/demos/bitz-up/icons/ig-icon.png" label="Instagram" />
+            <IconLink href={socials.threads} icon="/brittany-portfolio/demos/bitz-up/icons/threads-icon.png" label="Threads" />
+            <IconLink href={socials.facebook} icon="/brittany-portfolio/demos/bitz-up/icons/fb-icon.png" label="Facebook" />
+            <IconLink href={socials.tiktok} icon="/brittany-portfolio/demos/bitz-up/icons/tiktok-icon.png" label="TikTok" />
+            <IconLink href={socials.website} icon="/brittany-portfolio/demos/bitz-up/icons/amz-icon.png" label="Amazon or Website" />
+            <IconLink href={socials.preorder} icon="/brittany-portfolio/demos/bitz-up/icons/beventi-icon.png" label="Preorder" />
+            <IconLink href={socials.jibbly} icon="/brittany-portfolio/demos/bitz-up/icons/jibbly-icon.png" label="Jibbly Collection" />
           </div>
 
           {author.bio && (

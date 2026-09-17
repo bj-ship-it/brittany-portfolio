@@ -21,7 +21,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/A.M.-Wilson/author/B00TNZOWCK",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/a-m-wilson-collection",
-    "headshotSource": "/demos/bitz-up/headshots/a-m-wilson-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/a-m-wilson-headshot.png"
   },
   {
     "name": "Alexandra Hale",
@@ -43,7 +43,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Alexandra-Hale/author/B09YKTR375",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/alexandra-hale-collection",
-    "headshotSource": "/demos/bitz-up/headshots/alexandra-hale-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/alexandra-hale-headshot.png"
   },
   {
     "name": "Alina Lane",
@@ -65,7 +65,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/stores/author/B091MGKWKW",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/alina-lane-collection",
-    "headshotSource": "/demos/bitz-up/headshots/alina-lane-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/alina-lane-headshot.png"
   },
   {
     "name": "Alisha Williams",
@@ -92,7 +92,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Alisha-Williams/author/B08RMVVHK1",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/alisha-williams-collection",
-    "headshotSource": "/demos/bitz-up/headshots/alisha-williams-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/alisha-williams-headshot.png"
   },
   {
     "name": "Aly Stiles",
@@ -124,7 +124,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/author/alystiles",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/aly-stiles-collection",
-    "headshotSource": "/demos/bitz-up/headshots/aly-stiles-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/aly-stiles-headshot.png"
   },
   {
     "name": "Amber Allee",
@@ -149,7 +149,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amberallee.com/books-2/",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/amber-allee-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/amber-allee-headshot.png"
   },
   {
     "name": "Amber Palmer",
@@ -168,7 +168,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Amber-Palmer/author/B09MN1M59K",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/amber-palmer-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/amber-palmer-headshot.png"
   },
   {
     "name": "Amy Cecil",
@@ -196,7 +196,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/author/amycecil",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/amy-cecil-collection",
-    "headshotSource": "/demos/bitz-up/headshots/amy-cecil-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/amy-cecil-headshot.png"
   },
   {
     "name": "Amy Marie",
@@ -218,7 +218,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Amy-Marie/author/B00M7IWM36",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/amy-marie-collection",
-    "headshotSource": "/demos/bitz-up/headshots/amy-marie-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/amy-marie-headshot.png"
   },
   {
     "name": "April Moran",
@@ -241,7 +241,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/April-Moran/author/B07451N44P",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/april-moran-collection",
-    "headshotSource": "/demos/bitz-up/headshots/april-moran-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/april-moran-headshot.png"
   },
   {
     "name": "Ari Wright",
@@ -265,7 +265,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Ari-Wright/author/B0BYTLGS8R",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/ari-wright-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/ari-wright-headshot.png"
   },
   {
     "name": "Ashley Cade",
@@ -289,7 +289,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Ashley-Cade/author/B07RM7GPD8",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/ashley-cade-collection",
-    "headshotSource": "/demos/bitz-up/headshots/ashley-cade-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/ashley-cade-headshot.png"
   },
   {
     "name": "B.J. Hill",
@@ -310,7 +310,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/author/B0CCSYD4V1",
     "preorderUrl": "https://beventi.co/orderform/ny9ayay8b3",
     "jibblyUrl": "https://jibblyhq.com/products/b-j-hill-collection",
-    "headshotSource": "/demos/bitz-up/headshots/b-j-hill-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/b-j-hill-headshot.png"
   },
   {
     "name": "Breanna Lynn",
@@ -336,7 +336,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Breanna-Lynn/author/B0924VFTNT",
     "preorderUrl": "https://beventi.co/orderform/qxyt6mbg2e",
     "jibblyUrl": "https://jibblyhq.com/products/breanna-lynn-collection",
-    "headshotSource": "/demos/bitz-up/headshots/breanna-lynn-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/breanna-lynn-headshot.png"
   },
   {
     "name": "CA Miconi",
@@ -361,7 +361,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/CA-Miconi/author/B07ZPYT8T2",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/c-a-miconi-collection",
-    "headshotSource": "/demos/bitz-up/headshots/ca-miconi-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/ca-miconi-headshot.png"
   },
   {
     "name": "Caitlyn P. Tajon",
@@ -386,7 +386,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/stores/Caitlyn-P.-Tajon",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/caitlyn-p-tajon-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/caitlyn-p-tajon-headshot.png"
   },
   {
     "name": "Callie Meadows",
@@ -408,7 +408,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/author/calliemeadows",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/callie-meadows-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/callie-meadows-headshot.png"
   },
   {
     "name": "Cassandra Featherstone",
@@ -435,7 +435,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/author/cassandrafeatherstone",
     "preorderUrl": "https://beventi.co/orderform/ao1sennbfx",
     "jibblyUrl": "https://jibblyhq.com/products/cassandra-featherstone-collection",
-    "headshotSource": "/demos/bitz-up/headshots/cassandra-featherstone-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/cassandra-featherstone-headshot.png"
   },
   {
     "name": "Claire Hastings",
@@ -457,7 +457,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Claire-Hastings/author/B0859H3Z2M",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/claire-hastings-collection",
-    "headshotSource": "/demos/bitz-up/headshots/claire-hastings-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/claire-hastings-headshot.png"
   },
   {
     "name": "CM Smith",
@@ -481,7 +481,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/CM-Smith/author/B0BVS62HD8",
     "preorderUrl": "https://beventi.co/orderform/olmet890sg",
     "jibblyUrl": "https://jibblyhq.com/products/c-m-smith-collection",
-    "headshotSource": "/demos/bitz-up/headshots/cm-smith-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/cm-smith-headshot.png"
   },
   {
     "name": "Cora Kenborn",
@@ -505,7 +505,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Cora-Kenborn/author/B01M4J2GT6",
     "preorderUrl": "https://beventi.co/orderform/t2bal5mfrx",
     "jibblyUrl": "https://jibblyhq.com/products/cora-kenborn-collection",
-    "headshotSource": "/demos/bitz-up/headshots/cora-kenborn-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/cora-kenborn-headshot.png"
   },
   {
     "name": "Cristina Lollabrigida",
@@ -530,7 +530,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Cristina-Lollabrigida/author/B09NHMWK7S",
     "preorderUrl": "https://beventi.co/orderform/c5nhpr4cvw",
     "jibblyUrl": "https://jibblyhq.com/products/cristina-lollabrigida-collection",
-    "headshotSource": "/demos/bitz-up/headshots/cristina-lollabrigida-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/cristina-lollabrigida-headshot.png"
   },
   {
     "name": "Crystal J. Johnson & Felicity Vaughn",
@@ -554,7 +554,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/author/crystaljjohnson AND  https://www.amazon.com/author/felicityvaughn",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/crystal-and-felicity-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/crystal-and-felicity-headshot.png"
   },
   {
     "name": "D.W. Cole",
@@ -578,7 +578,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/D.W.-Cole/author/B0CMQXJ5S9",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/d-w-cole-collection",
-    "headshotSource": "/demos/bitz-up/headshots/dw-cole-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/dw-cole-headshot.png"
   },
   {
     "name": "Danielle Baker",
@@ -601,7 +601,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Danielle-Baker/author/B0BTKSD13H",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/danielle-baker-collection",
-    "headshotSource": "/demos/bitz-up/headshots/danielle-baker-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/danielle-baker-headshot.png"
   },
   {
     "name": "E.C. Land",
@@ -627,7 +627,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/E.C.-Land/author/B07NML2MZC",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/e-c-land-collection",
-    "headshotSource": "/demos/bitz-up/headshots/ec-land-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/ec-land-headshot.png"
   },
   {
     "name": "Elle Parker",
@@ -651,7 +651,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Elle-Parker/author/B0DKDD1R8R",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/elle-parker-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/elle-parker-headshot.png"
   },
   {
     "name": "Elva Stefanie",
@@ -672,7 +672,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/elva-stefanie-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/elva-stefanie-headshot.png"
   },
   {
     "name": "Emily Mayer",
@@ -695,7 +695,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Emily-Mayer/author/B07RYBZPZP",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/emily-mayer-collection",
-    "headshotSource": "/demos/bitz-up/headshots/emily-mayer-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/emily-mayer-headshot.png"
   },
   {
     "name": "Emma Jane Photography",
@@ -716,7 +716,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.emmajanephotos.com",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/emma-jane-photography-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/emma-jane-photography-headshot.png"
   },
   {
     "name": "Fiona Cole",
@@ -739,7 +739,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Fiona-Cole/author/B018RBJC4I",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/fiona-cole-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/fiona-cole-headshot.png"
   },
   {
     "name": "Gail Haris",
@@ -763,7 +763,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/author/B083H58XCB",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/gail-haris-collection",
-    "headshotSource": "/demos/bitz-up/headshots/gail-haris-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/gail-haris-headshot.png"
   },
   {
     "name": "Ginger Scott",
@@ -787,7 +787,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/stores/author/B00CMN0076",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/ginger-scott-collection",
-    "headshotSource": "/demos/bitz-up/headshots/ginger-scott-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/ginger-scott-headshot.png"
   },
   {
     "name": "Hailey Dickert",
@@ -811,7 +811,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Hailey-Dickert/author/B0BJ7P5M3W",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/hailey-dickert-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/hailey-dickert-headshot.png"
   },
   {
     "name": "Harloe Rae",
@@ -835,7 +835,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "http://bit.ly/HarloeOnAmazon",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/harloe-rae-collection",
-    "headshotSource": "/demos/bitz-up/headshots/harloe-rae-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/harloe-rae-headshot.png"
   },
   {
     "name": "Heather M Orgeron",
@@ -859,7 +859,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Heather-M.-Orgeron/author/B01I0KUW40",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/heather-m-orgeron-collection",
-    "headshotSource": "/demos/bitz-up/headshots/heather-m-orgeron-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/heather-m-orgeron-headshot.png"
   },
   {
     "name": "Heidi McLaughlin",
@@ -883,7 +883,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://amazon.com/stores/author/B00AV872O8",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/heidi-mclaughlin-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/heidi-mclaughlin-headshot.png"
   },
   {
     "name": "J.L. Stray",
@@ -905,7 +905,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "http://jlstraywrites.com/ AND https://www.amazon.com/stores/J.L.-Stray/author/B08FCRFGS7",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/j-l-stray-collection",
-    "headshotSource": "/demos/bitz-up/headshots/j-l-stray-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/j-l-stray-headshot.png"
   },
   {
     "name": "Janine Infante Bosco",
@@ -929,7 +929,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/author/B00NTS80V6?ingress=0&visitId=0d4e9004-ed16-43f3-b5d9-39e184a402f3&ref_=sr_ntt_srch_lnk_1&ccs_id=42beeff5-5bf3-421e-b962-e1ed9586936c",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/janine-infante-bosco-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/janine-infante-bosco-headshot.png"
   },
   {
     "name": "JEMLIN C",
@@ -950,7 +950,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/jemlin-c-collection",
-    "headshotSource": "/demos/bitz-up/headshots/jemlin-c-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jemlin-c-headshot.png"
   },
   {
     "name": "Jenn Bullard",
@@ -973,7 +973,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Jenn-Bullard/author/B0B41RK469",
     "preorderUrl": "https://beventi.co/orderform/cfo7tearvs",
     "jibblyUrl": "https://jibblyhq.com/products/jenn-bullard-collection",
-    "headshotSource": "/demos/bitz-up/headshots/jenn-bullard-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jenn-bullard-headshot.png"
   },
   {
     "name": "Jenn McMahon",
@@ -994,7 +994,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Jenn-McMahon/author/B0BRBVNXG3",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/jenn-mcmahon-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jenn-mcmahon-headshot.png"
   },
   {
     "name": "Jennifer Hartmann",
@@ -1020,7 +1020,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/author/B086Z4L9GH",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/jennifer-hartmann-collection",
-    "headshotSource": "/demos/bitz-up/headshots/jennifer-hartmann-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jennifer-hartmann-headshot.png"
   },
   {
     "name": "Jennifer J. Williams",
@@ -1043,7 +1043,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Jennifer-J-Williams/author/B0BG6FSMH6",
     "preorderUrl": "https://beventi.co/orderform/lyiti3wl7q",
     "jibblyUrl": "https://jibblyhq.com/products/jennifer-j-williams-collection",
-    "headshotSource": "/demos/bitz-up/headshots/jennifer-j-williams-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jennifer-j-williams-headshot.png"
   },
   {
     "name": "Jennifer Sucevic",
@@ -1065,7 +1065,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Jennifer-Sucevic/author/B0177EONK4",
     "preorderUrl": "https://beventi.co/orderform/zit54qp1bu",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/jennifer-sucevic-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jennifer-sucevic-headshot.png"
   },
   {
     "name": "Jillian D. Wray",
@@ -1090,7 +1090,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Jillian-Wray/author/B09TZ4Z51D",
     "preorderUrl": "https://beventi.co/orderform/jouly1mxgc",
     "jibblyUrl": "https://jibblyhq.com/products/jillian-d-wray-collection",
-    "headshotSource": "/demos/bitz-up/headshots/jillian-d-wray-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jillian-d-wray-headshot.png"
   },
   {
     "name": "Jodie Larson",
@@ -1112,7 +1112,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/author/B014QAKKBS",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/jodie-larson-collection",
-    "headshotSource": "/demos/bitz-up/headshots/jodie-larson-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/jodie-larson-headshot.png"
   },
   {
     "name": "JS Mercier",
@@ -1138,7 +1138,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/JS-Mercier/author/B09PRMKG2P",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/j-s-mercier-collection",
-    "headshotSource": "/demos/bitz-up/headshots/j-s-mercier-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/j-s-mercier-headshot.png"
   },
   {
     "name": "K.A. Tucker",
@@ -1164,7 +1164,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/K.A.-Tucker/author/B00539O6SK",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/k-a-tucker-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/k-a-tucker-headshot.png"
   },
   {
     "name": "K.K. Allen",
@@ -1189,7 +1189,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/K.K.-Allen/author/B00KXZGMGS",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/k-k-allen-collection",
-    "headshotSource": "/demos/bitz-up/headshots/k-k-allen-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/k-k-allen-headshot.png"
   },
   {
     "name": "Kate Hawthorne",
@@ -1214,7 +1214,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Kate-Hawthorne/author/B0791M6HFZ",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/kate-hawthorne-collection-1",
-    "headshotSource": "/demos/bitz-up/headshots/kate-hawthorne-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/kate-hawthorne-headshot.png"
   },
   {
     "name": "Katie Rae",
@@ -1238,7 +1238,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Katie-Rae/author/B085B6KDQ6",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/katie-rae-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/katie-rae-headshot.png"
   },
   {
     "name": "Kay Cove",
@@ -1260,7 +1260,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Kay-Cove/author/B0B241WVTL",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/kay-cove-collection",
-    "headshotSource": "/demos/bitz-up/headshots/kay-cove-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/kay-cove-headshot.png"
   },
   {
     "name": "KC Savage",
@@ -1285,7 +1285,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/KC-Savage/author/B09RGV8V7G",
     "preorderUrl": "https://beventi.co/orderform/g8yygqtrhf",
     "jibblyUrl": "https://jibblyhq.com/products/k-c-savage-collection",
-    "headshotSource": "/demos/bitz-up/headshots/k-c-savage-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/k-c-savage-headshot.png"
   },
   {
     "name": "Kellie Storm",
@@ -1307,7 +1307,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Kellie-Storm/author/B0B2N43P68",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/kellie-storm-collection",
-    "headshotSource": "/demos/bitz-up/headshots/kellie-storm-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/kellie-storm-headshot.png"
   },
   {
     "name": "KiKi Malone",
@@ -1328,7 +1328,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/KiKi-Malone/author/B07VQWG4SW",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/kiki-malone-collection",
-    "headshotSource": "/demos/bitz-up/headshots/kiki-malone-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/kiki-malone-headshot.png"
   },
   {
     "name": "Kimberly Chance",
@@ -1352,7 +1352,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/kimberly-chance-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/kimberly-chance-headshot.png"
   },
   {
     "name": "Kristy Marie",
@@ -1378,7 +1378,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Kristy-Marie/author/B077CX3B81",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/kristy-marie-collection",
-    "headshotSource": "/demos/bitz-up/headshots/kristy-marie-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/kristy-marie-headshot.png"
   },
   {
     "name": "L.A. Shaw",
@@ -1402,7 +1402,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/L.A.-Shaw/author/B09X2B9LJX",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/l-a-shaw-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/l-a-shaw-headshot.png"
   },
   {
     "name": "Laurelin Paige",
@@ -1424,7 +1424,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Laurelin-Paige/author/B00CR6KMWQ",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/laurelin-paige-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/laurelin-paige-headshot.png"
   },
   {
     "name": "LC Taylor And Dori Pulitano (if you can do both)",
@@ -1450,7 +1450,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://lnk.bio/AuthorsLCTaylor_DoriPulitano",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/lead-c-taylor-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/lead-c-taylor-headshot.png"
   },
   {
     "name": "Lexi Bissen",
@@ -1473,7 +1473,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Lexi-Bissen/author/B01ENSS40M",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/lexi-bissen-collection",
-    "headshotSource": "/demos/bitz-up/headshots/lexi-bissen-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/lexi-bissen-headshot.png"
   },
   {
     "name": "Lillith Carrie",
@@ -1497,7 +1497,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Lillith-Carrie/author/B0DSGX8VK4",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/lillith-carrie-collection",
-    "headshotSource": "/demos/bitz-up/headshots/lillith-carrie-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/lillith-carrie-headshot.png"
   },
   {
     "name": "LK Farlow",
@@ -1521,7 +1521,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/LK-Farlow/author/B07577N5PJ",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/l-k-farlow-collection",
-    "headshotSource": "/demos/bitz-up/headshots/l-k-farlow-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/l-k-farlow-headshot.png"
   },
   {
     "name": "Lucia Franco",
@@ -1546,7 +1546,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Lucia-Franco/author/B00MSZ5AX2",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/lucia-franco-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/lucia-franco-headshot.png"
   },
   {
     "name": "Melissa Ivers",
@@ -1570,7 +1570,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/author/B08LP6G625",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/melissa-ivers-collection",
-    "headshotSource": "/demos/bitz-up/headshots/melissa-ivers-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/melissa-ivers-headshot.png"
   },
   {
     "name": "Michelle Windsor",
@@ -1594,7 +1594,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://shop.authormichellewindsor.com/collections/all",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/michelle-windsor-collection",
-    "headshotSource": "/demos/bitz-up/headshots/michelle-windsor-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/michelle-windsor-headshot.png"
   },
   {
     "name": "Miranda Lynn",
@@ -1619,7 +1619,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Miranda-Lynn/author/B00P0D9X2S",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/miranda-lynn-collection",
-    "headshotSource": "/demos/bitz-up/headshots/miranda-lynn-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/miranda-lynn-headshot.png"
   },
   {
     "name": "Nicole Baker",
@@ -1640,7 +1640,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Nicole-Baker/author/B09R143DQH",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/nicole-baker-collection",
-    "headshotSource": "/demos/bitz-up/headshots/nicole-baker-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/nicole-baker-headshot.png"
   },
   {
     "name": "Nicole Blanchard",
@@ -1663,7 +1663,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Nicole-Blanchard/author/B00H272V8I",
     "preorderUrl": "https://beventi.co/orderform/udwbhbkmw1",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/nicole-blanchard-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/nicole-blanchard-headshot.png"
   },
   {
     "name": "Nikki Grant",
@@ -1688,7 +1688,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Nikki-Grant/author/B0D565KHGS",
     "preorderUrl": "https://beventi.co/orderform/lci6vdzw3w",
     "jibblyUrl": "https://jibblyhq.com/products/nikki-grant-collection",
-    "headshotSource": "/demos/bitz-up/headshots/nikki-grant-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/nikki-grant-headshot.png"
   },
   {
     "name": "Norma Marie",
@@ -1712,7 +1712,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Norma-Marie/author/B08SL2BRZ6",
     "preorderUrl": "https://beventi.co/orderform/fzle8hremn",
     "jibblyUrl": "https://jibblyhq.com/products/norma-marie-collection",
-    "headshotSource": "/demos/bitz-up/headshots/norma-marie-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/norma-marie-headshot.png"
   },
   {
     "name": "P.J. DeVere",
@@ -1733,7 +1733,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/P.J.-DeVere/author/B07D9XNGCQ",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/p-j-devere-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/p-j-devere-headshot.png"
   },
   {
     "name": "Phoebe Alexander",
@@ -1759,7 +1759,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Phoebe-Alexander/author/B00ANN43WK",
     "preorderUrl": "https://beventi.co/orderform/smuafianvu",
     "jibblyUrl": "https://jibblyhq.com/products/phoebe-alexander-collection",
-    "headshotSource": "/demos/bitz-up/headshots/phoebe-alexander-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/phoebe-alexander-headshot.png"
   },
   {
     "name": "Rachel Belrose",
@@ -1780,7 +1780,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Rachel-Belrose/author/B0CDYHF2T4",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/rachel-belrose-collection",
-    "headshotSource": "/demos/bitz-up/headshots/rachel-belrose-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/rachel-belrose-headshot.png"
   },
   {
     "name": "Rebecca Jenshak",
@@ -1804,7 +1804,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Rebecca-Jenshak/author/B074F258NP",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/rebecca-jenshak-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/rebecca-jenshak-headshot.png"
   },
   {
     "name": "Renee Harless",
@@ -1827,7 +1827,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Renee-Harless/author/B00VAHGAWE",
     "preorderUrl": "https://beventi.co/orderform/62y3p6jf8y",
     "jibblyUrl": "https://jibblyhq.com/products/renee-harless-collection",
-    "headshotSource": "/demos/bitz-up/headshots/renee-harless-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/renee-harless-headshot.png"
   },
   {
     "name": "Sara Snow",
@@ -1851,7 +1851,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Sara-Snow/author/B083XH1ZKR",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/sara-snow-collection",
-    "headshotSource": "/demos/bitz-up/headshots/sara-snow-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/sara-snow-headshot.png"
   },
   {
     "name": "Shelby Gunter",
@@ -1873,7 +1873,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Shelby-Gunter/author/B09BG2R3ML",
     "preorderUrl": "https://beventi.co/orderform/lrbvlb882i",
     "jibblyUrl": "https://jibblyhq.com/products/shelby-gunter-collection",
-    "headshotSource": "/demos/bitz-up/headshots/shelby-gunter-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/shelby-gunter-headshot.png"
   },
   {
     "name": "Shelly Cruz",
@@ -1895,7 +1895,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Shelly-Cruz/author/B08P8L2HYP",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/shelly-cruz-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/shelly-cruz-headshot.png"
   },
   {
     "name": "SJ Sylvis",
@@ -1918,7 +1918,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/S.J.-Sylvis/author/B07BXFG1H3",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/s-j-sylvis-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/s-j-sylvis-headshot.png"
   },
   {
     "name": "Stacy Kestwick",
@@ -1944,7 +1944,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Stacy-Kestwick/author/B00X8C5N86",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/stacy-kestwick-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/stacy-kestwick-headshot.png"
   },
   {
     "name": "Susan Renee",
@@ -1966,7 +1966,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/author/susanrenee",
     "preorderUrl": "https://beventi.co/orderform/41fgxcgwyr",
     "jibblyUrl": "https://jibblyhq.com/products/susan-renee-collection",
-    "headshotSource": "/demos/bitz-up/headshots/susan-renee-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/susan-renee-headshot.png"
   },
   {
     "name": "Tia Louise",
@@ -1990,7 +1990,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Tia-Louise/author/B00G8H2MY6",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/tia-louise-collection",
-    "headshotSource": "/demos/bitz-up/headshots/tia-louise-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/tia-louise-headshot.png"
   },
   {
     "name": "Tracey Jerald",
@@ -2017,7 +2017,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Tracey-Jerald/author/B07G6TVV7",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/tracey-jerald-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/tracey-jerald-headshot.png"
   },
   {
     "name": "Vinni George",
@@ -2040,7 +2040,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/author/vinnigeorgewrites",
     "preorderUrl": "",
     "jibblyUrl": "https://jibblyhq.com/products/vinni-george-collection",
-    "headshotSource": "/demos/bitz-up/headshots/vinni-george-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/vinni-george-headshot.png"
   },
   {
     "name": "Willow Aster",
@@ -2063,7 +2063,7 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://bit.ly/WillowAster",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/willow-aster-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/willow-aster-headshot.png"
   },
   {
     "name": "Willow Winters",
@@ -2089,6 +2089,6 @@ export const authors = [
     "amazonOrWebsiteUrl": "https://www.amazon.com/stores/Willow-Winters/author/B01G9J9JKW",
     "preorderUrl": "",
     "jibblyUrl": "",
-    "headshotSource": "/demos/bitz-up/headshots/willow-winters-headshot.png"
+    "headshotSource": "/brittany-portfolio/demos/bitz-up/headshots/willow-winters-headshot.png"
   }
 ];

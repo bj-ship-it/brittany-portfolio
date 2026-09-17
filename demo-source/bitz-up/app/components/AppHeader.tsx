@@ -17,7 +17,7 @@ export default function AppHeader() {
     <header className="sticky top-0 z-50 border-b border-[#f6d8ea] bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex h-20 w-full max-w-lg items-center justify-between px-4">
         <Link href="/" className="flex items-center">
-          <Image src="/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" width={170} height={60} className="h-auto w-[150px] sm:w-[170px]" priority />
+          <Image src="/brittany-portfolio/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" width={170} height={60} className="h-auto w-[150px] sm:w-[170px]" priority />
         </Link>
 
         <div className="flex items-center gap-4">
@@ -26,7 +26,7 @@ export default function AppHeader() {
           </Link>
 
           <Link href="/account" aria-label="Account" className="rounded-full p-1 transition hover:scale-110 hover:bg-[#fff7fb]">
-            <Image src="/demos/bitz-up/icons/account-icon.png" alt="Account" width={34} height={34} className="h-9 w-9 object-contain" />
+            <Image src="/brittany-portfolio/demos/bitz-up/icons/account-icon.png" alt="Account" width={34} height={34} className="h-9 w-9 object-contain" />
           </Link>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function ProgrammingPage() {
   return (
     <main className="min-h-screen bg-[#fff7fb] px-6 py-10 text-[#2d1230]">
       <div className="mx-auto max-w-5xl">
-        <img src="/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-md" />
+        <img src="/brittany-portfolio/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-md" />
         <h1 className="bitz-heading text-center text-6xl text-[#DB2487]">Programming</h1>
         <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-gray-700">The official Bitz Up! Beachside Book Bash schedule.</p>
         <div className="mt-12 space-y-10">

@@ -12,7 +12,7 @@ export default function FAQsPage() {
   return (
     <main className="min-h-screen bg-[#fff7fb] px-6 py-10 text-[#2d1230]">
       <div className="mx-auto max-w-5xl">
-        <img src="/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-md" />
+        <img src="/brittany-portfolio/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-md" />
         <p className="text-center text-sm font-bold tracking-[0.25em] text-[#126e83]">May 29, 2027 | Panama City Beach, Florida | Hosted by Jibbly</p>
         <h1 className="bitz-heading mt-4 text-center text-6xl text-[#DB2487]">Frequently Asked Questions</h1>
         <div className="mt-12 space-y-5">

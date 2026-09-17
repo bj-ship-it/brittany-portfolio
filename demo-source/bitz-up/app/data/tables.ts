@@ -57,9 +57,9 @@ function table(
 }
 
 export const ballroomImages: Record<Ballroom, string> = {
-  "Grand Ballroom": "/demos/bitz-up/maps/grand-ballroom-map.png",
-  "Sago Palm Ballroom": "/demos/bitz-up/maps/sago-palm-ballroom-map.png",
-  "Palm Ballroom": "/demos/bitz-up/maps/palm-ballroom-map.png",
+  "Grand Ballroom": "/brittany-portfolio/demos/bitz-up/maps/grand-ballroom-map.png",
+  "Sago Palm Ballroom": "/brittany-portfolio/demos/bitz-up/maps/sago-palm-ballroom-map.png",
+  "Palm Ballroom": "/brittany-portfolio/demos/bitz-up/maps/palm-ballroom-map.png",
 };
 
 export const eventTables: EventTable[] = [

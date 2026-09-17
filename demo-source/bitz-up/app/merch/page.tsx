@@ -4,7 +4,7 @@ export default function MerchPage() {
   return (
     <main className="min-h-screen bg-[#fff7fb] px-6 py-10 text-[#2d1230]">
       <div className="mx-auto max-w-6xl">
-        <img src="/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-md" />
+        <img src="/brittany-portfolio/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-md" />
         <h1 className="bitz-heading text-center text-6xl text-[#DB2487]">Exclusive Event Merchandise</h1>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {merch.map((item) => (

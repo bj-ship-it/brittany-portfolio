@@ -61,7 +61,7 @@ export default function DashboardPage() {
   return (
     <main className="py-8 text-[#2d1230]">
       <div className="mx-auto max-w-3xl rounded-3xl bg-white p-6 shadow-xl sm:p-8">
-        <img src="/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-sm" />
+        <img src="/brittany-portfolio/demos/bitz-up/logos/bitzup-logo.png" alt="Bitz Up!" className="mx-auto mb-8 w-full max-w-sm" />
 
         <h1 className="bitz-heading text-center text-5xl text-[#126e83]">My Tickets</h1>
 

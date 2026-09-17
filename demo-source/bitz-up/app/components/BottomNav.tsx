@@ -5,12 +5,12 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { label: "Home", href: "/", icon: "/demos/bitz-up/icons/home-icon.png", activeIcon: "/demos/bitz-up/icons/home-icon-selected.png" },
-  { label: "Authors", href: "/authors", icon: "/demos/bitz-up/icons/author-icon.png", activeIcon: "/demos/bitz-up/icons/author-icon-selected.png" },
-  { label: "Tickets", href: "/dashboard", icon: "/demos/bitz-up/icons/tickets-icon.png", activeIcon: "/demos/bitz-up/icons/tickets-icon-selected.png" },
-  { label: "Map", href: "/map", icon: "/demos/bitz-up/icons/map-icon.png", activeIcon: "/demos/bitz-up/icons/map-icon-selected.png" },
-  { label: "Schedule", href: "/programming", icon: "/demos/bitz-up/icons/program-icon.png", activeIcon: "/demos/bitz-up/icons/program-icon-selected.png" },
-  { label: "Merch", href: "/merch", icon: "/demos/bitz-up/icons/merch-icon.png", activeIcon: "/demos/bitz-up/icons/merch-icon-selected.png" },
+  { label: "Home", href: "/", icon: "/brittany-portfolio/demos/bitz-up/icons/home-icon.png", activeIcon: "/brittany-portfolio/demos/bitz-up/icons/home-icon-selected.png" },
+  { label: "Authors", href: "/authors", icon: "/brittany-portfolio/demos/bitz-up/icons/author-icon.png", activeIcon: "/brittany-portfolio/demos/bitz-up/icons/author-icon-selected.png" },
+  { label: "Tickets", href: "/dashboard", icon: "/brittany-portfolio/demos/bitz-up/icons/tickets-icon.png", activeIcon: "/brittany-portfolio/demos/bitz-up/icons/tickets-icon-selected.png" },
+  { label: "Map", href: "/map", icon: "/brittany-portfolio/demos/bitz-up/icons/map-icon.png", activeIcon: "/brittany-portfolio/demos/bitz-up/icons/map-icon-selected.png" },
+  { label: "Schedule", href: "/programming", icon: "/brittany-portfolio/demos/bitz-up/icons/program-icon.png", activeIcon: "/brittany-portfolio/demos/bitz-up/icons/program-icon-selected.png" },
+  { label: "Merch", href: "/merch", icon: "/brittany-portfolio/demos/bitz-up/icons/merch-icon.png", activeIcon: "/brittany-portfolio/demos/bitz-up/icons/merch-icon-selected.png" },
 ];
 
 export default function BottomNav() {
