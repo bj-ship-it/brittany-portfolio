@@ -1020,7 +1020,7 @@ svg.icon { display:block; fill:none; stroke:currentColor; stroke-width:1.8; stro
           <section class="view member-only" id="view-membertasks" data-view="membertasks" aria-labelledby="page-title">
             <div class="member-feed">
               <article class="panel member-task-card"><span class="task-check">!</span><div><p class="eyebrow">DUE TODAY</p><h3>Confirm final migration status</h3><p>Let leadership know whether every required step is complete.</p></div><button class="button button--primary button--small" type="button" data-member-action="Task completed">Mark complete</button></article>
-              <article class="panel member-task-card"><span class="task-check">2</span><div><p class="eyebrow">DUE JANTEMBER 2</p><h3>Review your member profile</h3><p>Verify your Lord ID, alliance, power, email, and Discord information.</p></div><button class="button button--panel button--small" type="button" data-route="memberprofile">Review profile</button></article>
+              <article class="panel member-task-card"><span class="task-check">2</span><div><p class="eyebrow">UPCOMING</p><h3>Review your member profile</h3><p>Verify your Lord ID, alliance, power, email, and Discord information.</p></div><button class="button button--panel button--small" type="button" data-route="memberprofile">Review profile</button></article>
               <article class="panel member-task-card is-complete"><span class="task-check">✓</span><div><p class="eyebrow">COMPLETED</p><h3>Connect Discord account</h3><p>Notifications are active for demo_member.</p></div><span class="status-badge status-badge--success">Complete</span></article>
             </div>
           </section>
@@ -1576,5 +1576,88 @@ svg.icon { display:block; fill:none; stroke:currentColor; stroke-width:1.8; stro
   else initialize();
 })();
 </script>
-  </body>
+  
+<style>
+#demo-task-dialog {width:min(620px,92vw);max-height:85vh;overflow:auto;background:#11251c;color:#ecfff4;border:1px solid #3d7054;border-radius:18px;padding:24px}
+#demo-task-dialog::backdrop{background:#000b}
+#demo-task-dialog label{display:block;margin:16px 0 6px}
+#demo-task-dialog input:not([type=checkbox]),#demo-task-dialog select,#demo-task-dialog textarea{width:100%;padding:12px;background:#07170e;color:#fff;border:1px solid #52745f;border-radius:8px;font:inherit}
+#demo-task-dialog button,.demo-task-controls button{margin:8px 8px 8px 0}
+.demo-task-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:16px}
+.demo-task-note{font-size:12px;color:#b5cabb;line-height:1.6}
+#task-board button{margin-top:12px}
+#demo-task-history{padding-left:20px;font-size:12px;line-height:1.8}
+</style>
+<dialog id="demo-task-dialog" aria-labelledby="demo-task-heading">
+<form id="demo-task-form">
+<div style="display:flex;justify-content:space-between;align-items:center"><h2 id="demo-task-heading">Task details</h2><button type="button" class="button button--panel" id="demo-task-close">Close</button></div>
+<p class="demo-task-note">Fictional demo workspace. Changes stay in this browser.</p>
+<label for="demo-task-title">Task title</label><input id="demo-task-title" required maxlength="120">
+<label for="demo-task-description">Instructions</label><textarea id="demo-task-description" rows="3" maxlength="1500"></textarea>
+<label for="demo-task-owner">Assigned member</label><select id="demo-task-owner"></select>
+<label for="demo-task-due">Due date</label><input id="demo-task-due" type="date" required>
+<label for="demo-task-priority">Priority</label><select id="demo-task-priority"><option>Normal</option><option>High</option></select>
+<label for="demo-task-status">Progress</label><select id="demo-task-status"><option>To do</option><option>In progress</option><option>Complete</option></select>
+<fieldset style="margin-top:20px"><legend>Checklist</legend><div id="demo-task-checklist"></div></fieldset>
+<label for="demo-task-comment">Add a progress note</label><textarea id="demo-task-comment" rows="2" maxlength="500" placeholder="What changed? What still needs attention?"></textarea>
+<ul id="demo-task-history"></ul>
+<p id="demo-task-error" role="alert"></p>
+<button class="button button--primary" type="submit">Save task</button>
+</form></dialog>
+<script>
+(() => {
+'use strict';
+const key='portfolio-lcky-tasks-v1';
+const members=['Demo Aurora','Demo Atlas','Demo Cedar','Demo Nova'];
+const date=(offset)=>{const d=new Date();d.setDate(d.getDate()+offset);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
+const seed=()=>[
+{id:'sample-1',title:'Confirm event readiness',description:'Check your troop availability and confirm that you can attend the practice event.',owner:'Demo Atlas',due:date(0),priority:'High',status:'To do',checks:[{text:'Review the event schedule',done:false},{text:'Confirm troop availability',done:false},{text:'Add an attendance note',done:false}],notes:[]},
+{id:'sample-2',title:'Review incoming applications',description:'Review the fictional application queue and record any follow-up questions.',owner:'Demo Aurora',due:date(-1),priority:'High',status:'In progress',checks:[{text:'Review sample profiles',done:true},{text:'Record follow-up questions',done:false}],notes:['Demo Aurora: Initial review completed.']},
+{id:'sample-3',title:'Update member profile',description:'Review your sample profile before the next roster check.',owner:'Demo Cedar',due:date(2),priority:'Normal',status:'To do',checks:[{text:'Check sample Lord ID and power',done:false},{text:'Confirm contact preferences',done:false}],notes:[]},
+{id:'sample-4',title:'Read the welcome announcement',description:'Review the welcome information for new members.',owner:'Demo Atlas',due:date(-2),priority:'Normal',status:'Complete',checks:[{text:'Read welcome information',done:true}],notes:['Demo Atlas: Read and acknowledged.']}
+];
+let tasks=seed(), selected=null, filter='All tasks';
+try{const saved=JSON.parse(localStorage.getItem(key));if(Array.isArray(saved)&&saved.every(t=>t.id&&t.title&&Array.isArray(t.checks)&&Array.isArray(t.notes)))tasks=saved}catch{}
+const $=id=>document.getElementById(id);
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function persist(){try{localStorage.setItem(key,JSON.stringify(tasks))}catch{$('demo-task-error').textContent='Browser storage is unavailable. Changes will last for this session.'}}
+function card(t){return `<article class="task-card"><div class="task-card__top"><span class="priority">${escape(t.priority)}</span><span class="status-badge">${escape(t.status)}</span></div><h4>${escape(t.title)}</h4><p>${escape(t.owner)}</p><p style="margin-top:10px">${t.checks.filter(c=>c.done).length}/${t.checks.length} steps complete · Due ${escape(t.due)}</p><button type="button" class="button button--panel button--small" data-demo-task="${escape(t.id)}">Open task</button></article>`}
+function render(){
+const visible=tasks.filter(t=>filter==='Completed'?t.status==='Complete':filter==='My tasks'?t.owner==='Demo Aurora'&&t.status!=='Complete':t.status!=='Complete');
+$('task-board').innerHTML=['To do','In progress','Complete'].map(status=>{const list=visible.filter(t=>t.status===status);return `<section class="task-column"><div class="task-column__header"><h3>${status}</h3><span>${list.length}</span></div><div class="task-list">${list.map(card).join('')||'<p class="demo-task-note">No tasks here.</p>'}</div></section>`}).join('');
+const memberView=$('view-membertasks');memberView.innerHTML='<p class="demo-task-note">Viewing fictional member Demo Atlas. Open a task to complete its checklist and record progress.</p><div class="task-list">'+tasks.filter(t=>t.owner==='Demo Atlas').map(card).join('')+'</div>';
+document.querySelectorAll('[data-route="tasks"] .nav-count').forEach(el=>el.textContent=tasks.filter(t=>t.status!=='Complete').length);
+document.querySelectorAll('[data-route="membertasks"] .nav-count').forEach(el=>el.textContent=tasks.filter(t=>t.owner==='Demo Atlas'&&t.status!=='Complete').length);
+}
+function open(id){
+selected=tasks.find(t=>t.id===id)||{id:'task-'+Date.now(),title:'',description:'',owner:'Demo Aurora',due:date(1),priority:'Normal',status:'To do',checks:[{text:'Review the instructions',done:false},{text:'Complete the requested action',done:false}],notes:[]};
+$('demo-task-heading').textContent=id?'Task details':'Create a task';
+for(const [field,property] of [['title','title'],['description','description'],['owner','owner'],['due','due'],['priority','priority'],['status','status']])$('demo-task-'+field).value=selected[property];
+$('demo-task-checklist').innerHTML=selected.checks.map((c,i)=>`<label><input type="checkbox" data-step="${i}" ${c.done?'checked':''}> ${escape(c.text)}</label>`).join('');
+$('demo-task-history').innerHTML=selected.notes.map(n=>`<li>${escape(n)}</li>`).join('');$('demo-task-comment').value='';$('demo-task-error').textContent='';$('demo-task-dialog').showModal();
+}
+function init(){
+$('demo-task-owner').innerHTML=members.map(m=>`<option>${m}</option>`).join('');
+const toolbar=$('view-tasks').querySelector('.section-toolbar');toolbar.innerHTML='<div class="demo-task-controls"><label>Show <select id="demo-task-filter"><option>All tasks</option><option>My tasks</option><option>Completed</option></select></label><button class="button button--primary" id="demo-task-new" type="button">New task</button><button class="button button--panel" id="demo-task-reset" type="button">Reset sample tasks</button></div>';
+const note=document.createElement('p');note.className='demo-task-note';note.textContent='Try creating a task, assigning a fictional member, checking off steps, and marking it complete. “My tasks” shows Demo Aurora’s officer assignments.';toolbar.after(note);
+$('demo-task-new').onclick=()=>open();$('demo-task-close').onclick=()=>$('demo-task-dialog').close();
+$('demo-task-filter').onchange=e=>{filter=e.target.value;render()};
+$('demo-task-reset').onclick=()=>{if(confirm('Reset the fictional task workspace? Your demo task edits will be cleared.')){tasks=seed();persist();render()}};
+document.addEventListener('click',e=>{const button=e.target.closest('[data-demo-task]');if(button)open(button.dataset.demoTask)});
+$('demo-task-form').onsubmit=e=>{
+e.preventDefault();const t={...selected,checks:selected.checks.map((c,i)=>({...c,done:$('demo-task-checklist').querySelector(`[data-step="${i}"]`).checked})),notes:[...selected.notes]};
+for(const field of ['title','description','owner','due','priority','status'])t[field]=$('demo-task-'+field).value.trim();
+if(!t.title){$('demo-task-error').textContent='Enter a task title.';return}
+if(t.status==='Complete'&&t.checks.some(c=>!c.done)){$('demo-task-error').textContent='Finish the checklist before marking this task complete.';return}
+if(t.status!==selected.status)t.notes.push('Status changed to '+t.status+'.');
+const note=$('demo-task-comment').value.trim();if(note)t.notes.push('Demo note: '+note);
+const index=tasks.findIndex(item=>item.id===t.id);if(index<0)tasks.push(t);else tasks[index]=t;
+persist();render();$('demo-task-dialog').close();
+};render();
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+</script>
+
+</body>
 </html>
