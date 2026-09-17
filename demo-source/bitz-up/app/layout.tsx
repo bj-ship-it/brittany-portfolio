@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`min-h-screen bg-[#fff7fb] text-[#2d1230]`}>
-        <aside className="bg-[#126e83] px-4 py-3 text-center text-xs text-white">Portfolio demo · Sample account and tickets · Event information reflects the supplied app snapshot. <a className="underline" href="/brittany-portfolio/index.html#work">Back to portfolio</a></aside><AppHeader />
+        <aside className="bg-[#126e83] px-4 py-3 text-center text-xs text-white">Portfolio demo · Sample account and tickets · Event information reflects the supplied app snapshot. <a className="underline" href="https://bj-ship-it.github.io/brittany-portfolio/#work">Back to portfolio</a></aside><AppHeader />
         <div className="w-full overflow-x-hidden pb-28">
   {children}
 </div>
