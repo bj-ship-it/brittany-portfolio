@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Margin & Muse — a bookstore concept by Brittany Alley, built with HTML, CSS, and responsive Flexbox layouts.">
+  <title>Margin &amp; Muse | Find your next chapter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">A LITTLE CURIOSITY. A WHOLE NEW CHAPTER.</div>
+  <header class="header">
+    <nav class="nav row" aria-label="Main navigation">
+      <a class="brand" href="#top">margin<span>&amp;</span>muse<span class="brand__label">THE BOOKSHOP EDIT</span></a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Menu</button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="../../index.html#work">← Portfolio</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#latest">The bookshelf</a></li>
+        <li><a href="#about">Our approach</a></li>
+        <li><a class="nav__contact" href="#contact">Get in touch ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero row" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="eyebrow">FOR THE CURIOUS &amp; THE CREATIVE</p>
+        <h1 id="hero-title">Make room for<br>your next <em>chapter.</em></h1>
+        <p class="hero__description">Big ideas. Fresh perspectives. Books that stay with you long after the last page.</p>
+        <a class="button" href="#featured">Find your next read <span aria-hidden="true">↗</span></a>
+        <p class="hero__footnote">A bookshop concept by Brittany Alley</p>
+      </div>
+      <figure class="hero__art">
+        <span class="hero__edition">THE PERSONAL GROWTH EDIT / 01</span>
+        <img src="assets/atomic habits.jpg" alt="Atomic Habits by James Clear" width="240" height="360">
+        <figcaption>Small changes.<br><em>A different kind of momentum.</em></figcaption>
+      </figure>
+    </section>
+    <section class="highlights" id="about" aria-labelledby="about-title">
+      <div class="row">
+        <h2 class="visually-hidden" id="about-title">Our approach to the bookshelf</h2>
+        <div class="highlights__list">
+          <article class="highlight"><span class="highlight__number">01</span><div><h3>Start with curiosity</h3><p>Explore ideas beyond your everyday reading list.</p></div></article>
+          <article class="highlight"><span class="highlight__number">02</span><div><h3>Find a fresh perspective</h3><p>From creative focus to building better habits.</p></div></article>
+          <article class="highlight"><span class="highlight__number">03</span><div><h3>Make space to read</h3><p>Pick a book. Set aside a moment. See where it takes you.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="section row" id="featured" aria-labelledby="featured-title">
+      <div class="section__heading"><div><p class="eyebrow">A PLACE TO BEGIN</p><h2 id="featured-title">On the reading list.</h2></div><a class="text-link" href="#latest">Explore the bookshelf ↗</a></div>
+      <div class="books">
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/crack the coding interview.png" alt="Crack the Coding Interview book cover" loading="lazy"></figure>
+          <h3 class="book__title">Crack the Coding Interview</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/atomic habits.jpg" alt="Atomic Habits book cover" loading="lazy"></figure>
+          <h3 class="book__title">Atomic Habits</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/david goggins.jpeg" alt="Can&#x27;t Hurt Me book cover" loading="lazy"></figure>
+          <h3 class="book__title">Can&#x27;t Hurt Me</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/deep work.jpeg" alt="Deep Work book cover" loading="lazy"></figure>
+          <h3 class="book__title">Deep Work</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+      </div>
+    </section>
+    <section class="latest" id="latest" aria-labelledby="latest-title">
+      <div class="section row">
+        <div class="section__heading"><div><p class="eyebrow">KEEP EXPLORING</p><h2 id="latest-title">Your next good read.</h2></div><p>Eight more reasons to turn the page.</p></div>
+        <div class="books">
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-1.jpeg" alt="The 10X Rule book cover" loading="lazy"></figure>
+          <h3 class="book__title">The 10X Rule</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-2.jpeg" alt="Be Obsessed Or Be Average book cover" loading="lazy"></figure>
+          <h3 class="book__title">Be Obsessed Or Be Average</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-3.jpeg" alt="Rich Dad Poor Dad book cover" loading="lazy"></figure>
+          <h3 class="book__title">Rich Dad Poor Dad</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-4.jpeg" alt="Cashflow Quadrant book cover" loading="lazy"></figure>
+          <h3 class="book__title">Cashflow Quadrant</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-5.jpeg" alt="48 Laws of Power book cover" loading="lazy"></figure>
+          <h3 class="book__title">48 Laws of Power</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-6.jpeg" alt="The 5 Second Rule book cover" loading="lazy"></figure>
+          <h3 class="book__title">The 5 Second Rule</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-7.jpg" alt="Your Next Five Moves book cover" loading="lazy"></figure>
+          <h3 class="book__title">Your Next Five Moves</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        <article class="book">
+          <figure class="book__image-wrap"><img class="book__image" src="./assets/book-8.jpeg" alt="Mastery book cover" loading="lazy"></figure>
+          <h3 class="book__title">Mastery</h3>
+          <p class="book__format">Paperback · Sample listing</p>
+          <p class="book__price">$14.95</p>
+        </article>
+        </div>
+      </div>
+    </section>
+    <section class="explore row">
+      <p class="eyebrow">THERE’S ALWAYS ANOTHER CHAPTER</p>
+      <h2>Follow your curiosity.</h2>
+      <a class="button" href="#featured">Back to the reading list ↗</a>
+    </section>
+  </main>
+  <footer class="footer" id="contact">
+    <div class="row footer__content">
+      <div><a class="brand" href="#top">margin<span>&amp;</span>muse</a><p>A bookstore concept by Brittany Alley.</p></div>
+      <div><a href="mailto:brittanyalley@gmail.com">Get in touch ↗</a><p>© 2026 Brittany Alley</p></div>
+    </div>
+    <p class="row footer__note">Portfolio storefront demo. Prices are illustrative; purchases are not available.</p>
+  </footer>
+</body>
+</html>

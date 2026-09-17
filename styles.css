@@ -207,3 +207,8 @@ section { scroll-margin-top: 24px; }
   .project:hover .project__type, .project:hover .project__asterisk,
   .button:hover { transform: none; }
 }
+
+/* Margin & Muse shares the portfolio palette and existing project layout. */
+.project--bookstore .project__cover { background: var(--blue); color: var(--teal); }
+.project--bookstore .project__type { font-size: clamp(36px, 6vw, 72px); }
+.project__details .project__note { margin-top: 12px; font-size: 12px; }
