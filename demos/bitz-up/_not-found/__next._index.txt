@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[1613,["500","static/chunks/500-c99b8dfd3de17c86.js","600","static/chunks/600-95de4a8fddbf7918.js","177","static/chunks/app/layout-6051588f795221bb.js"],"default"]
+3:I[7121,[],""]
+4:I[4581,[],""]
+5:I[1995,["500","static/chunks/500-c99b8dfd3de17c86.js","600","static/chunks/600-95de4a8fddbf7918.js","177","static/chunks/app/layout-6051588f795221bb.js"],"default"]
+:HL["/demos/bitz-up/_next/static/css/fa61818baf1dba90.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/demos/bitz-up/_next/static/css/fa61818baf1dba90.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"min-h-screen bg-[#fff7fb] text-[#2d1230]","children":[["$","aside",null,{"className":"bg-[#126e83] px-4 py-3 text-center text-xs text-white","children":["Portfolio demo · Sample account and tickets · Event information reflects the supplied app snapshot. ",["$","a",null,{"className":"underline","href":"/index.html#work","children":"Back to portfolio"}]]}],["$","$L2",null,{}],["$","div",null,{"className":"w-full overflow-x-hidden pb-28","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}],["$","$L5",null,{}]]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"hKchK8lH9lWbst4wIaPZ9"}

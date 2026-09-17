@@ -1,0 +1,1 @@
+To rebuild: copy the public asset directories (backgrounds, fonts, headshots, icons, logos, maps) from ../../demos/bitz-up into a public directory here. Run npm ci and npm run build -- --webpack. Copy out into ../../demos/bitz-up. No environment variables are needed. Update basePath and the asset prefix strings if deploying below a different site path.

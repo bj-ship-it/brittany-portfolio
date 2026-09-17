@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --bitz-pink: #DB2487;
+  --bitz-teal: #126e83;
+  --soft-pink: #fff7fb;
+  --deep-plum: #2d1230;
+}
+
+@font-face {
+  font-family: "BreakfastPastry";
+  src: url("/demos/bitz-up/fonts/Breakfast%20Pastry%20Solid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bartex";
+  src: url("/demos/bitz-up/fonts/Bartex.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlaylistScript";
+  src: url("/demos/bitz-up/fonts/Playlist%20Script.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background: var(--soft-pink);
+  color: var(--deep-plum);
+}
+
+.bitz-heading,
+h1,
+h2,
+h3 {
+  font-family: "BreakfastPastry", Montserrat, Arial, sans-serif !important;
+  letter-spacing: 0.01em;
+}
+
+.line-clamp-6 {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

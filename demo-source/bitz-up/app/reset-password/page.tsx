@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function DemoEntry(){return <main className="mx-auto max-w-lg px-6 py-16 text-center"><h1 className="text-4xl text-[#126e83]">Explore the demo</h1><p className="my-6">No account needed. Explore the original app with a fictional attendee and sample ticket. Nothing is purchased, sent, or checked in.</p><Link href="/dashboard" className="inline-block rounded-full bg-[#126e83] px-8 py-4 text-white">View sample ticket</Link></main>}

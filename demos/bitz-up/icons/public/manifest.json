@@ -1,0 +1,22 @@
+{
+  "name": "Bitz Up! Beachside Book Bash",
+  "short_name": "Bitz Up!",
+  "description": "Official event app for Bitz Up! Beachside Book Bash",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff5f9",
+  "theme_color": "#DB2487",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/bitz-up-mobile-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/bitz-up-mobile-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

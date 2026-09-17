@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[484,[],"OutletBoundary"]
+3:"$Sreact.suspense"
+:HL["/demos/bitz-up/logos/bitzup-logo.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-[#fff7fb] px-6 py-10 text-center text-[#2d1230]","children":[["$","img",null,{"src":"/demos/bitz-up/logos/bitzup-logo.png","alt":"Bitz Up!","className":"mx-auto mb-8 w-full max-w-md"}],["$","h1",null,{"className":"bitz-heading text-6xl text-[#DB2487]","children":"Tickets"}],["$","p",null,{"className":"mx-auto mt-4 max-w-2xl text-lg text-gray-700","children":"Tickets are hosted through Ticket Tailor."}],["$","a",null,{"href":"https://www.tickettailor.com/events/jibbly/1693858","target":"_blank","rel":"noreferrer","className":"mt-10 inline-block rounded-full bg-[#126e83] px-8 py-4 text-xl font-bold text-white transition hover:bg-[#DB2487]","children":"Open Ticket Page"}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"hKchK8lH9lWbst4wIaPZ9"}
+4:null
